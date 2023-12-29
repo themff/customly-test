@@ -16,8 +16,8 @@ app.use(express.static('public'));
 
 const shopify = new Shopify({
     shopName: 'alejandruchos3',
-    apiKey: '99455dcd2e909710fadd8d14564aad72',
-    password: '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'
+    apiKey: 'apikey',
+    password: 'token'
 });
 
 
